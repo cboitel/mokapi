@@ -78,7 +78,7 @@ func ParseDuration(s string) error {
 			}
 			num = ""
 		case 'H':
-			if state != parsingUnit {
+			if state != parsingValue {
 				return fmt.Errorf("invalid duration format: %s", s)
 			}
 
@@ -88,7 +88,7 @@ func ParseDuration(s string) error {
 			}
 			num = ""
 		case 'S':
-			if state != parsingUnit {
+			if state != parsingValue {
 				return fmt.Errorf("invalid duration format: %s", s)
 			}
 
