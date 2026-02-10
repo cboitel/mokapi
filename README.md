@@ -138,3 +138,5 @@ If you like Mokapi, consider buying me a coffee:
 # 📄 License
 
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/marle3003/mokapi/blob/main/LICENSE) file for details.
+
+
